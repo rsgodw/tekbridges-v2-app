@@ -1,34 +1,34 @@
-import { Landmark } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 export default function Credibility() {
   return (
     <section className="cred" id="cred">
       <div className="wrap">
         <div className="cred-card rv">
-          <div className="cred-stamp">Loan-ready</div>
+          <div className="cred-stamp">Compliance-Ready</div>
           <h3>
-            <Landmark className="w-5 h-5 text-[var(--accent)]" />
-            <span>What your banker sees</span>
+            <ShieldCheck className="w-5 h-5 text-[var(--accent)]" />
+            <span>What your clients see</span>
           </h3>
           <div className="cred-line">
             <span>Business website</span>
-            <b>yourbusiness.com &mdash; LIVE</b>
+            <b>NEXT.JS EDGE NETWORK</b>
           </div>
           <div className="cred-line">
-            <span>Professional email</span>
-            <b>you@yourbusiness.com</b>
+            <span>Data protection</span>
+            <b>DLP PROTOCOLS ACTIVE</b>
           </div>
           <div className="cred-line">
-            <span>Local search presence</span>
+            <span>Search authority</span>
             <b>INDEXED &amp; RANKING</b>
           </div>
           <div className="cred-line">
-            <span>Customer contact channel</span>
-            <b>FORM + PHONE + CHAT</b>
+            <span>Client intake</span>
+            <b>ENCRYPTED PIPELINE</b>
           </div>
           <div className="cred-line">
-            <span>Verified info</span>
-            <b>LICENSE, ADDRESS, HOURS</b>
+            <span>Verified trust</span>
+            <b>SSL &amp; PRIVACY POLICIES</b>
           </div>
         </div>
         <div className="cred-copy rv">

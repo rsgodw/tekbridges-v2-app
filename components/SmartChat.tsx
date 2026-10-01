@@ -16,14 +16,13 @@ export default function SmartChat() {
         <div className="ai-copy rv">
           <div className="sec-tag">03 / The upgrade</div>
           <div className="sec-head" style={{ marginBottom: 0 }}>
-            <h2>A website that answers while you&apos;re on a job.</h2>
+            <h2>A platform that qualifies leads while you&apos;re in a meeting.</h2>
           </div>
           <p>
-            Most customer questions come in at <strong>8&ndash;10pm</strong>{" "}
-            &mdash; exactly when you&apos;re elbows-deep in a repair. Our{" "}
-            <strong>Smart Chat assistant</strong> answers your common questions
-            instantly, qualifies the lead, and pushes them to call or fill your
-            form.
+            High-value clients research your firm outside of standard business
+            hours. Our <strong>Smart Chat assistant</strong> answers complex FAQs
+            instantly, qualifies the prospect&apos;s budget, and pushes them to
+            book a consultation.
           </p>
           <p>
             It&apos;s trained on <strong>your</strong> services, your service
@@ -85,12 +84,11 @@ export default function SmartChat() {
               </div>
             </div>
             <div className="chat-preview-body">
-              <div className="bubble user">Are you open Saturdays?</div>
+              <div className="bubble user">Are you available for consultations this week?</div>
               <div className="bubble bot">
-                Yes! We&apos;re open Saturdays 8am&ndash;2pm for quotes and
-                bookings. Want me to have the team reach out to you today? You
-                can also call us directly &mdash; the number&apos;s right at the
-                top of the page. &#128222;
+                Our team is available for initial strategy consultations Monday
+                through Friday. Would you like me to share a link to our secure
+                booking calendar so we can evaluate your firm&apos;s needs?
               </div>
             </div>
           </div>

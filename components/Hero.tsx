@@ -1,9 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Hammer, Eye } from "lucide-react";
+import { Layers, Eye } from "lucide-react";
 
-const WORDS = ["platform.", "portal.", "engine.", "security."];
+const WORDS = [
+  "security.",
+  "performance.",
+  "infrastructure.",
+  "lead generation.",
+];
 const TRADES = [
   "Accounting Firms",
   "Fractional CFOs",
@@ -30,12 +35,12 @@ export default function Hero() {
       <div className="wrap">
         <div>
           <span className="kicker rv">
-            Websites for the people who do the real work
+            Digital infrastructure for advisory and consulting firms.
           </span>
           <h1 className="rv">
-            Your trade
+            Your firm
             <br />
-            deserves a
+            deserves elite
             <br />
             <span className="rotator">
               <span
@@ -58,7 +63,7 @@ export default function Hero() {
           </p>
           <div className="hero-cta rv">
             <a className="btn btn-solid" href="#pricing">
-              <Hammer className="w-4 h-4" /> Build My Website
+              <Layers className="w-4 h-4" /> Deploy My Platform
             </a>
             <a className="btn btn-ghost" href="#showcase">
               <Eye className="w-4 h-4" /> See What You Get

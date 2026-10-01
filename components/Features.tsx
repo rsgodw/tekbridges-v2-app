@@ -55,10 +55,11 @@ export default function Features() {
           </div>
           <div className="spec-item">
             <div className="spec-num">SPEC&mdash;06</div>
-            <h3>Domain &amp; email</h3>
+            <h3>Seamless Domain Integration</h3>
             <p>
-              Your own .com and a professional email address &mdash; invoices from{" "}
-              <em>you@yourbusiness.com</em> close more deals.
+              Connect your custom .com effortlessly. We handle the DNS routing,
+              SSL provisioning, and global CDN delivery so your brand remains
+              front and center.
             </p>
           </div>
           <div className="spec-item">

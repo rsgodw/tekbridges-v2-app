@@ -19,7 +19,7 @@ export default function Footer() {
           <a href="#contact">Contact</a>
         </div>
         <span className="mono">
-          &copy; {new Date().getFullYear()} TEKBRIDGES.COM &middot; BUILT FOR THE TRADES
+          &copy; {new Date().getFullYear()} TEKBRIDGES.COM &middot; MANAGED INFRASTRUCTURE FOR ADVISORY &amp; B2B FIRMS
         </span>
       </div>
     </footer>

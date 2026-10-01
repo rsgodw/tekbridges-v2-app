@@ -18,7 +18,7 @@ const KB = [
   },
   {
     k: ["ai", "chat", "chatbot", "smart", "assistant"],
-    a: "Our <b>Smart Chat assistant</b> answers your customers' questions 24/7 — hours, pricing, services — even at 9pm while you're on a job. It's included in the Pro + AI plan, and you're talking to one right now 😄",
+    a: "Our <b>Smart Chat assistant</b> answers your clients' questions 24/7 — services, qualifications, compliance — even outside business hours while you're in client meetings. It's included in the Pro + AI plan, and you're talking to one right now 😄",
   },
   {
     k: ["own", "domain", "mine", "hostage", "cancel", "leave", "contract"],
@@ -45,9 +45,13 @@ const KB = [
       "b2b",
       "finance",
       "compliance",
-      "trade",
+      "firm",
     ],
     a: "That's exactly who we build for! Financial professionals, fractional CFOs, tech consultants, and B2B agencies. Your platform becomes a 24/7 lead machine for your high-ticket services.",
+  },
+  {
+    k: ["hour", "saturday", "weekend", "open", "calendar", "consult", "booking"],
+    a: "Our team is available for initial strategy consultations Monday through Friday. Would you like me to share a link to our secure booking calendar so we can evaluate your firm's needs?",
   },
   {
     k: ["update", "change", "edit", "maintain", "maintenance", "fix"],
@@ -55,7 +59,7 @@ const KB = [
   },
   {
     k: ["loan", "bank", "credib", "legit", "financ"],
-    a: "Great thinking — a real website with your domain, address and license info instantly signals legitimacy to lenders. <a href='#cred'>Jump to the 'What your banker sees' section</a> for exactly what they look for — it's about halfway down this page.",
+    a: "Great thinking — enterprise-grade infrastructure with active SSL and secure lead capture instantly signals legitimacy to high-ticket clients and corporate partners. <a href='#cred'>Jump to the 'What your clients see' section</a> for exactly what they look for.",
   },
   {
     k: ["form", "lead", "contact", "inquiry", "email"],
@@ -67,15 +71,15 @@ const KB = [
   },
   {
     k: ["ecommerce", "store", "shop", "sell online", "cart"],
-    a: "We build lead-generating brochure sites, not ecommerce stores — perfect for service pros who want calls and booked jobs. If you need an online store down the road, we can point you in the right direction.",
+    a: "We build lead-generating platforms and client portals, not retail consumer storefronts — perfect for professional services firms. If you need custom integrations down the road, our team handles it directly.",
   },
   {
     k: ["hello", "hi", "hey", "yo", "sup"],
-    a: "Hey there! 👋 I can answer questions about pricing, our 48-hour launch process, the AI chat feature, or how this works for your trade. What's on your mind?",
+    a: "Hey there! 👋 I can answer questions about pricing, our 48-hour launch process, the AI chat qualification feature, or how this works for your firm. What's on your mind?",
   },
   {
     k: ["thank", "thanks", "appreciate"],
-    a: "Anytime! If you're ready, scroll down to the form and we'll call you within one business day. Or keep asking — I'm here all night. 🔧",
+    a: "Anytime! If you're ready, scroll down to the form and our team will follow up within one business day. Or keep asking — I'm here all day and night.",
   },
 ];
 
@@ -86,7 +90,7 @@ const INITIAL_CHIPS = [
   "Pricing?",
   "How fast can I launch?",
   "Do I own my site?",
-  "What about my trade?",
+  "What about my firm?",
 ];
 
 const INITIAL_MESSAGES: ChatMessage[] = [

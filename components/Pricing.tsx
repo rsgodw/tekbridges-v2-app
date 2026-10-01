@@ -88,7 +88,7 @@ export default function Pricing() {
               </li>
             </ul>
             <a className="btn btn-ghost" href="#contact">
-              Start for $0 down
+              Start Now - $0 Setup Fee
             </a>
           </div>
 
@@ -141,7 +141,7 @@ export default function Pricing() {
               </li>
             </ul>
             <a className="btn" href="#contact">
-              Start for $0 down
+              Start Now - $0 Setup Fee
             </a>
           </div>
 
@@ -185,11 +185,11 @@ export default function Pricing() {
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Best for solo pros who can&apos;t answer mid-job</span>
+                <span>Best for busy practitioners who can&apos;t answer during meetings</span>
               </li>
             </ul>
             <a className="btn btn-ghost" href="#contact">
-              Start for $0 down
+              Start Now - $0 Setup Fee
             </a>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function Pricing() {
         <div className="pricing-note rv">
           <BadgeCheck className="w-4 h-4 text-[var(--accent)] flex-none" />
           <span>
-            ALL PLANS: NO UPFRONT FEE &middot; $0 TO START &middot; CANCEL
+            ALL PLANS: ZERO SETUP FEES &middot; $0 TO START &middot; CANCEL
             ANYTIME &middot; YOU OWN YOUR DOMAIN &amp; CONTENT
           </span>
         </div>

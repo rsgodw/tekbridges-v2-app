@@ -15,8 +15,8 @@ export default function Process() {
             <div className="step-num">1</div>
             <h3>15-minute call</h3>
             <p>
-              We grab your business info, services, photos and service area. You
-              talk, we build. That&apos;s the whole effort required from you.
+              We capture your firm&apos;s positioning, core advisory offerings,
+              and compliance requirements. You brief us, we build.
             </p>
             <span className="step-time">DAY 0 &mdash; 15 MIN</span>
           </div>
@@ -24,8 +24,8 @@ export default function Process() {
             <div className="step-num">2</div>
             <h3>We build &amp; you review</h3>
             <p>
-              Your site goes live on a preview link. You request tweaks, we ship
-              them. Nothing goes fully live until you say so.
+              Your platform goes live on a staging link. You request tweaks,
+              we ship them. Nothing deploys to production until you approve.
             </p>
             <span className="step-time">DAY 1 &mdash; REVIEW</span>
           </div>
@@ -33,8 +33,8 @@ export default function Process() {
             <div className="step-num">3</div>
             <h3>Launch &amp; start collecting leads</h3>
             <p>
-              Domain connected, Google-ready, form tested. Your first bill? Next
-              month. That&apos;s the no-upfront-fee promise.
+              Domain connected, SSL provisioned, pipelines active. Your first
+              subscription bill? Next month. That&apos;s the zero-setup-fee promise.
             </p>
             <span className="step-time">DAY 2 &mdash; LIVE</span>
           </div>

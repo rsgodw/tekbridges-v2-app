@@ -94,21 +94,22 @@ export default function Showcase() {
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Loads in under 2 seconds &mdash; most customers browse on their
-                phone in a truck cab
+                Loads in under 2 seconds &mdash; enterprise decision-makers
+                evaluate your firm on mobile devices between meetings.
               </span>
             </li>
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Your real address, service area &amp; license info &mdash; the
-                stuff Google needs to rank you locally
+                Optimized architecture and schema markup &mdash; ensuring your
+                firm ranks for high-intent corporate searches.
               </span>
             </li>
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Tap-to-call button on every screen &mdash; one thumb, one ring
+                Frictionless contact points &mdash; optimized to convert
+                traffic into booked strategy calls.
               </span>
             </li>
             <li>
@@ -118,8 +119,8 @@ export default function Showcase() {
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Credibility your banker can see &mdash; hand them the link at
-                your next loan meeting
+                Credibility your clients can see &mdash; share the link with
+                enterprise prospects and stakeholders.
               </span>
             </li>
           </ul>
