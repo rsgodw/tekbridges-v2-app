@@ -34,17 +34,12 @@ export default function Credibility() {
         <div className="cred-copy rv">
           <div className="sec-tag">05 / Credibility</div>
           <div className="sec-head" style={{ marginBottom: 0 }}>
-            <h2>Look established before you feel it.</h2>
+            <h2>Bank-grade security. Instant credibility.</h2>
           </div>
           <p>
-            When you apply for a business loan, equipment financing, or even a big
-            commercial contract, the first thing they do is <b>Google you</b>.
-          </p>
-          <p>
-            A real website with your name on the domain, your address, your
-            license number and real customer contact info does one thing
-            instantly: <b>it signals you&apos;re legitimate.</b> Our clients hand
-            over the link at the bank and watch the tone of the meeting change.
+            When you handle sensitive client data, your digital footprint must signal
+            absolute security and compliance. We build enterprise-grade
+            infrastructure that passes the test.
           </p>
         </div>
       </div>

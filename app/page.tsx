@@ -7,7 +7,6 @@ import SmartChat from "@/components/SmartChat";
 import Process from "@/components/Process";
 import Credibility from "@/components/Credibility";
 import Pricing from "@/components/Pricing";
-import SocialKit from "@/components/SocialKit";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
@@ -25,7 +24,6 @@ export default function Home() {
         <Process />
         <Credibility />
         <Pricing />
-        <SocialKit />
         <Contact />
       </main>
       <Footer />

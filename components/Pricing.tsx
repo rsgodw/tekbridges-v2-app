@@ -47,11 +47,11 @@ export default function Pricing() {
               <span>Starter</span>
             </h3>
             <p className="plan-desc">
-              Get online, look professional, take leads.
+              High-performance web infrastructure for independent practitioners.
             </p>
             <div className="price">
               <small>$</small>
-              <span>{isYearly ? "49" : "49"}</span>
+              <span>{isYearly ? "166" : "199"}</span>
               <small>/mo</small>
             </div>
             <div className="price-yearly">
@@ -94,17 +94,17 @@ export default function Pricing() {
 
           {/* Pro Plan (Featured) */}
           <div className="plan plan-feat">
-            <div className="plan-flag">Most trades choose this</div>
+            <div className="plan-flag">Most firms choose this</div>
             <h3>
               <TrendingUp className="w-5 h-5 text-[var(--accent)]" />
               <span>Pro</span>
             </h3>
             <p className="plan-desc">
-              Be the first result when neighbors search.
+              Dominate search rankings and establish enterprise authority.
             </p>
             <div className="price">
               <small>$</small>
-              <span>{isYearly ? "82" : "99"}</span>
+              <span>{isYearly ? "332" : "399"}</span>
               <small>/mo</small>
             </div>
             <div className="price-yearly">
@@ -152,11 +152,11 @@ export default function Pricing() {
               <span>Pro + AI</span>
             </h3>
             <p className="plan-desc">
-              Never miss a lead, even at 9pm on a job.
+              24/7 AI client intake and lead qualification built in.
             </p>
             <div className="price">
               <small>$</small>
-              <span>{isYearly ? "124" : "149"}</span>
+              <span>{isYearly ? "499" : "599"}</span>
               <small>/mo</small>
             </div>
             <div className="price-yearly">

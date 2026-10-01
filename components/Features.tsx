@@ -63,10 +63,11 @@ export default function Features() {
           </div>
           <div className="spec-item">
             <div className="spec-num">SPEC&mdash;07</div>
-            <h3>You own it</h3>
+            <h3>You own your data</h3>
             <p>
-              Your domain, your content, your business. If you ever leave, it
-              comes with you. No hostage situations, no fine print.
+              Your domain, your client lists, and your raw content are 100%
+              yours. The underlying secure infrastructure and codebase is
+              licensed and maintained by TekBridges as a managed service.
             </p>
           </div>
         </div>

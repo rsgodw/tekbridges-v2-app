@@ -3,18 +3,16 @@
 import { useState, useEffect } from "react";
 import { Hammer, Eye } from "lucide-react";
 
-const WORDS = ["website.", "roof.", "engine.", "career."];
+const WORDS = ["platform.", "portal.", "engine.", "security."];
 const TRADES = [
-  "Plumbers",
-  "Electricians",
-  "Roofers",
-  "Carpenters",
-  "Cleaners",
-  "Landscapers",
-  "Accountants",
-  "Nannies",
-  "HVAC",
-  "Painters",
+  "Accounting Firms",
+  "Fractional CFOs",
+  "Tech Consultants",
+  "B2B Freelancers",
+  "Legal Counsel",
+  "Tax Professionals",
+  "Data Analysts",
+  "Compliance Officers",
 ];
 
 export default function Hero() {
@@ -51,12 +49,12 @@ export default function Hero() {
               </span>
             </span>
             <br />
-            <span className="outline">Not a Facebook page.</span>
+            <span className="outline">Not a cheap template.</span>
           </h1>
           <p className="hero-sub rv">
-            TekBridges builds lead-generating websites for plumbers, electricians,
-            roofers, cleaners, landscapers, accountants and every independent pro in
-            between. <b>No upfront fee. Ever.</b>
+            TekBridges engineers lightning-fast, highly secure web platforms for
+            financial professionals, consultants, and independent agencies. Zero
+            setup fees. Managed flawlessly.
           </p>
           <div className="hero-cta rv">
             <a className="btn btn-solid" href="#pricing">

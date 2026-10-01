@@ -6,7 +6,7 @@ import { Phone, Mail, MapPin, Rocket, CheckCircle2 } from "lucide-react";
 export default function Contact() {
   const [name, setName] = useState("");
   const [biz, setBiz] = useState("");
-  const [trade, setTrade] = useState("Plumbing");
+  const [trade, setTrade] = useState("Accounting / CPA");
   const [phone, setPhone] = useState("");
   const [plan, setPlan] = useState("Not sure — help me choose");
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -72,7 +72,7 @@ export default function Contact() {
               id="f-name"
               ref={nameInputRef}
               type="text"
-              placeholder="Mike Rivera"
+              placeholder="Michael Vance"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
@@ -83,27 +83,24 @@ export default function Contact() {
             <input
               id="f-biz"
               type="text"
-              placeholder="Rivera Plumbing LLC"
+              placeholder="Vance Advisory Group"
               value={biz}
               onChange={(e) => setBiz(e.target.value)}
             />
           </div>
           <div className="field">
-            <label htmlFor="f-trade">Your trade</label>
+            <label htmlFor="f-trade">Your industry</label>
             <select
               id="f-trade"
               value={trade}
               onChange={(e) => setTrade(e.target.value)}
             >
-              <option>Plumbing</option>
-              <option>Electrical</option>
-              <option>Roofing</option>
-              <option>HVAC</option>
-              <option>Carpentry</option>
-              <option>Cleaning</option>
-              <option>Landscaping / Lawn care</option>
-              <option>Accounting / Taxes</option>
-              <option>Childcare / Nanny</option>
+              <option>Accounting / CPA</option>
+              <option>Financial Consulting</option>
+              <option>IT &amp; Tech Consulting</option>
+              <option>Independent Legal Counsel</option>
+              <option>Fractional Exec / CFO</option>
+              <option>B2B Services</option>
               <option>Other</option>
             </select>
           </div>
@@ -127,9 +124,9 @@ export default function Contact() {
               onChange={(e) => setPlan(e.target.value)}
             >
               <option>Not sure &mdash; help me choose</option>
-              <option>Starter &mdash; $49/mo</option>
-              <option>Pro &mdash; $99/mo</option>
-              <option>Pro + AI &mdash; $149/mo</option>
+              <option>Starter &mdash; $199/mo</option>
+              <option>Pro &mdash; $399/mo</option>
+              <option>Pro + AI &mdash; $599/mo</option>
             </select>
           </div>
           <button

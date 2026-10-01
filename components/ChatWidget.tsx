@@ -14,7 +14,7 @@ interface ChatMessage {
 const KB = [
   {
     k: ["price", "cost", "how much", "pricing", "fee", "charge", "expensive", "afford"],
-    a: "We have three plans: <b>Starter $49/mo</b>, <b>Pro $99/mo</b>, and <b>Pro + AI $149/mo</b> — all of them <b>$0 down</b>. Your first bill doesn't come until your site is live. <a href='#pricing'>See the full plan comparison</a>. Want the yearly option? That's 2 months free.",
+    a: "We have three plans: <b>Starter $199/mo</b>, <b>Pro $399/mo</b>, and <b>Pro + AI $599/mo</b> — all of them <b>$0 down</b>. Your first bill doesn't come until your site is live. <a href='#pricing'>See the full plan comparison</a>. Want the yearly option? That's 2 months free.",
   },
   {
     k: ["ai", "chat", "chatbot", "smart", "assistant"],
@@ -22,7 +22,7 @@ const KB = [
   },
   {
     k: ["own", "domain", "mine", "hostage", "cancel", "leave", "contract"],
-    a: "You own your domain and content, always. Cancel anytime — no hostage situations, no fine print. If you leave, everything comes with you.",
+    a: "You own your custom domain and all your business data. Because we provide high-security managed infrastructure, the codebase itself remains on our secure servers. If you ever leave, you take your domain and content with zero friction.",
   },
   {
     k: ["fast", "launch", "long", "quick", "when", "48", "time", "start", "how soon"],
@@ -34,23 +34,20 @@ const KB = [
   },
   {
     k: [
-      "plumb",
-      "electric",
-      "roof",
-      "clean",
-      "carpent",
-      "landscap",
-      "lawn",
-      "tax",
+      "cpa",
       "account",
-      "nanny",
-      "babysi",
-      "hvac",
+      "tax",
+      "consult",
+      "cfo",
+      "legal",
+      "agency",
+      "advisor",
+      "b2b",
+      "finance",
+      "compliance",
       "trade",
-      "paint",
-      "handy",
     ],
-    a: "That's exactly who we build for! Plumbers, electricians, roofers, cleaners, landscapers, accountants, nannies — any independent pro. Your site becomes a 24/7 lead machine for your specific trade.",
+    a: "That's exactly who we build for! Financial professionals, fractional CFOs, tech consultants, and B2B agencies. Your platform becomes a 24/7 lead machine for your high-ticket services.",
   },
   {
     k: ["update", "change", "edit", "maintain", "maintenance", "fix"],
