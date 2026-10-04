@@ -62,7 +62,7 @@ export default function Hero() {
             setup fees. Managed flawlessly.
           </p>
           <div className="hero-cta rv">
-            <a className="btn btn-solid" href="#pricing">
+            <a className="btn btn-solid" href="/blueprint">
               <Layers className="w-4 h-4" /> Deploy My Platform
             </a>
             <a className="btn btn-ghost" href="#showcase">

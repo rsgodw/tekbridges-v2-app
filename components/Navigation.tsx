@@ -28,8 +28,8 @@ export default function Navigation() {
             <a href="#pricing">Pricing</a>
           </li>
         </ul>
-        <a className="btn btn-solid btn-sm" href="#contact">
-          <PhoneCall className="w-4 h-4" /> Get My Site
+        <a className="btn btn-solid btn-sm" href="/blueprint">
+          <PhoneCall className="w-4 h-4" /> Deploy Platform
         </a>
       </div>
     </nav>
