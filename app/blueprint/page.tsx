@@ -121,7 +121,7 @@ const SOCIAL_PROOF = {
   4: { quote: "Our conversion rate doubled within 30 days of deployment.", author: "Amanda Roth", firm: "Ledger & Co. Tax" },
   5: { quote: "The most premium digital footprint we've ever had.", author: "James Sterling", firm: "Horizon Capital Partners" },
   6: { quote: "The technical audit exposed exactly why we were losing leads.", author: "Elena Rostova", firm: "B2B Growth Dynamics" },
-  7: { quote: "Deploying this engine was the highest ROI decision we made this year.", author: "Robert Godwin", firm: "TekBridges Portfolio" },
+  7: { quote: "Deploying this engine was the highest ROI decision we made this year.", author: "Marcus Thorne", firm: "Thorne Capital Partners" },
 };
 
 export default function BlueprintEngine() {
@@ -269,9 +269,9 @@ export default function BlueprintEngine() {
                   <button
                     key={opt}
                     onClick={() => handleSelect("industry", opt, 2)}
-                    className="p-5 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]"
+                    className="p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]"
                   >
-                    <span className="font-semibold text-[15px] text-white">
+                    <span className="font-semibold text-[17px] text-white">
                       {opt}
                     </span>
                     <ChevronRight className="w-5 h-5 text-zinc-500 group-hover:text-[var(--accent)] transition-colors" />
@@ -298,9 +298,9 @@ export default function BlueprintEngine() {
                   <button
                     key={opt}
                     onClick={() => handleSelect("revenue", opt, 3)}
-                    className="p-5 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-center transition-all duration-200 rounded-[16px] active:scale-[0.98]"
+                    className="p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-center transition-all duration-200 rounded-[16px] active:scale-[0.98]"
                   >
-                    <span className="font-semibold text-[16px] text-white">
+                    <span className="font-semibold text-lg text-white">
                       {opt}
                     </span>
                   </button>
@@ -326,18 +326,18 @@ export default function BlueprintEngine() {
                   <button
                     key={item.title}
                     onClick={() => handleSelect("timeFocus", item.title, 4)}
-                    className={`p-5 bg-white/5 hover:bg-white/10 border ${item.recommended ? 'border-[var(--accent)]/40 hover:border-[var(--accent)] shadow-[0_0_15px_rgba(59,130,246,0.1)]' : 'border-white/5 hover:border-white/20'} text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]`}
+                    className={`p-6 bg-white/5 hover:bg-white/10 border ${item.recommended ? 'border-[var(--accent)]/40 hover:border-[var(--accent)] shadow-[0_0_15px_rgba(59,130,246,0.1)]' : 'border-white/5 hover:border-white/20'} text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]`}
                   >
                     <div>
-                      <div className="font-bold text-[16px] text-white">
+                      <div className="font-bold text-[17px] text-white">
                         {item.title}
                       </div>
-                      <div className="text-[14px] text-zinc-400 mt-1 font-medium">
+                      <div className="text-[15px] text-zinc-400 mt-1.5 font-medium">
                         {item.desc}
                       </div>
                     </div>
                     {item.recommended && (
-                      <CheckCircle2 className="w-5 h-5 text-[var(--accent)] transition-colors" />
+                      <CheckCircle2 className="w-6 h-6 text-[var(--accent)] transition-colors ml-4" />
                     )}
                   </button>
                 ))}
@@ -362,17 +362,17 @@ export default function BlueprintEngine() {
                   <button
                     key={item.title}
                     onClick={() => handleSelect("painPoint", item.title, 5)}
-                    className="p-5 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]"
+                    className="p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]"
                   >
                     <div>
-                      <div className="font-bold text-[16px] text-white">
+                      <div className="font-bold text-[17px] text-white">
                         {item.title}
                       </div>
-                      <div className="text-[14px] text-zinc-400 mt-1 font-medium">
+                      <div className="text-[15px] text-zinc-400 mt-1.5 font-medium">
                         {item.desc}
                       </div>
                     </div>
-                    <ChevronRight className="w-5 h-5 text-zinc-500 group-hover:text-[var(--accent)] transition-colors" />
+                    <ChevronRight className="w-5 h-5 text-zinc-500 group-hover:text-[var(--accent)] transition-colors ml-4" />
                   </button>
                 ))}
               </div>
@@ -396,17 +396,17 @@ export default function BlueprintEngine() {
                   <button
                     key={item.title}
                     onClick={() => handleSelect("aesthetic", item.title, 6)}
-                    className="p-5 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]"
+                    className="p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 text-left transition-all duration-200 rounded-[16px] flex items-center justify-between group active:scale-[0.98]"
                   >
                     <div>
-                      <div className="font-bold text-[16px] text-white">
+                      <div className="font-bold text-[17px] text-white">
                         {item.title}
                       </div>
-                      <div className="text-[14px] text-zinc-400 mt-1 font-medium">
+                      <div className="text-[15px] text-zinc-400 mt-1.5 font-medium">
                         {item.desc}
                       </div>
                     </div>
-                    <ChevronRight className="w-5 h-5 text-zinc-500 group-hover:text-[var(--accent)] transition-colors" />
+                    <ChevronRight className="w-5 h-5 text-zinc-500 group-hover:text-[var(--accent)] transition-colors ml-4" />
                   </button>
                 ))}
               </div>
@@ -454,21 +454,20 @@ export default function BlueprintEngine() {
                         placeholder="e.g. yourfirm.com"
                         value={domainInput}
                         onChange={(e) => setDomainInput(e.target.value)}
-                        className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-5 pl-12 text-[15px] rounded-[16px] outline-none transition-all placeholder-zinc-600"
+                        className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-6 text-lg text-center rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
                       />
-                      <Globe className="w-5 h-5 text-zinc-500 absolute left-4 top-1/2 -translate-y-1/2" />
                     </div>
 
                     <button
                       type="submit"
-                      className="w-full bg-[var(--accent)] hover:bg-[#2563EB] text-white font-semibold py-4 px-6 rounded-[16px] transition-all active:scale-[0.98] shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]"
+                      className="w-full bg-[var(--accent)] hover:bg-[#2563EB] text-white font-semibold py-5 px-6 text-lg rounded-[16px] transition-all active:scale-[0.98] shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]"
                     >
                       Run Technical Audit
                     </button>
                     <button
                       type="button"
                       onClick={handleDomainSkip}
-                      className="w-full text-zinc-500 hover:text-white font-medium py-3 px-6 text-[14px] transition-colors"
+                      className="w-full text-zinc-500 hover:text-white font-medium py-4 px-6 text-[15px] transition-colors"
                     >
                       Skip / I don't have one
                     </button>
@@ -541,16 +540,16 @@ export default function BlueprintEngine() {
 
       {/* Dynamic Social Proof Banner */}
       <div className="w-full max-w-2xl mt-8 animate-in fade-in duration-700 relative z-10">
-        <div className="bg-white/5 backdrop-blur-md border border-white/5 rounded-[20px] p-6 flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left transition-all">
-          <div className="w-10 h-10 rounded-full bg-[var(--accent)]/10 flex items-center justify-center flex-none mt-1">
-            <MessageSquareQuote className="w-5 h-5 text-[var(--accent)]" />
+        <div className="bg-white/5 backdrop-blur-md border border-white/5 rounded-[20px] p-8 flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left transition-all">
+          <div className="w-12 h-12 rounded-full bg-[var(--accent)]/10 flex items-center justify-center flex-none mt-1">
+            <MessageSquareQuote className="w-6 h-6 text-[var(--accent)]" />
           </div>
           <div>
-            <p className="text-[15px] font-medium text-zinc-300 italic">"{currentProof.quote}"</p>
-            <div className="mt-2 text-[13px]">
-              <span className="font-bold text-white">{currentProof.author}</span>
-              <span className="text-zinc-500 mx-2">|</span>
-              <span className="text-zinc-400">{currentProof.firm}</span>
+            <p className="text-[17px] md:text-[18px] font-medium text-zinc-300 italic leading-relaxed">"{currentProof.quote}"</p>
+            <div className="mt-3 text-[14px] md:text-[15px]">
+              <span className="font-bold text-white tracking-wide">{currentProof.author}</span>
+              <span className="text-zinc-600 mx-3">|</span>
+              <span className="text-zinc-400 font-medium">{currentProof.firm}</span>
             </div>
           </div>
         </div>
