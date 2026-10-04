@@ -33,6 +33,7 @@ interface FunnelData {
   firmName: string;
   email: string;
   phone: string;
+  address: string;
   hours: string;
   bio: string;
 }
@@ -161,6 +162,7 @@ export default function BlueprintEngine() {
     firmName: "",
     email: "",
     phone: "",
+    address: "",
     hours: "",
     bio: "",
   });
@@ -275,7 +277,7 @@ export default function BlueprintEngine() {
 
   const handleStage8Submit = (e: FormEvent) => {
     e.preventDefault();
-    if (!formData.firmName || !formData.email || !formData.phone) return;
+    if (!formData.firmName || !formData.email || !formData.phone || !formData.address) return;
     captureEvent("funnel_intake_basic_completed");
     setCurrentStage(9);
   };
@@ -633,12 +635,11 @@ export default function BlueprintEngine() {
                     type="text"
                     name="firmName"
                     required
-                    placeholder="Legal Firm / Company Name"
+                    placeholder="Business Name"
                     value={formData.firmName}
                     onChange={handleInputChange}
-                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-5 pl-14 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
+                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-6 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
                   />
-                  <Building2 className="w-5 h-5 text-zinc-500 absolute left-5 top-1/2 -translate-y-1/2" />
                 </div>
                 <div className="relative">
                   <input
@@ -648,9 +649,8 @@ export default function BlueprintEngine() {
                     placeholder="Primary Email Address"
                     value={formData.email}
                     onChange={handleInputChange}
-                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-5 pl-14 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
+                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-6 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
                   />
-                  <Mail className="w-5 h-5 text-zinc-500 absolute left-5 top-1/2 -translate-y-1/2" />
                 </div>
                 <div className="relative">
                   <input
@@ -660,14 +660,24 @@ export default function BlueprintEngine() {
                     placeholder="Business Phone Number"
                     value={formData.phone}
                     onChange={handleInputChange}
-                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-5 pl-14 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
+                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-6 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
                   />
-                  <Phone className="w-5 h-5 text-zinc-500 absolute left-5 top-1/2 -translate-y-1/2" />
+                </div>
+                <div className="relative">
+                  <input
+                    type="text"
+                    name="address"
+                    required
+                    placeholder="Business Address"
+                    value={formData.address}
+                    onChange={handleInputChange}
+                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-6 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
+                  />
                 </div>
 
                 <button
                   type="submit"
-                  disabled={!formData.firmName || !formData.email || !formData.phone}
+                  disabled={!formData.firmName || !formData.email || !formData.phone || !formData.address}
                   className="w-full bg-[var(--accent)] hover:bg-[#2563EB] disabled:opacity-50 disabled:hover:bg-[var(--accent)] text-white font-semibold py-5 px-6 text-lg rounded-[16px] transition-all active:scale-[0.98] shadow-[0_0_20px_rgba(59,130,246,0.3)] mt-2"
                 >
                   Save & Continue
@@ -729,9 +739,8 @@ export default function BlueprintEngine() {
                     placeholder="Standard Operating Hours (e.g., Mon-Fri 9am-5pm)"
                     value={formData.hours}
                     onChange={handleInputChange}
-                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-5 pl-14 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
+                    className="w-full bg-black/40 border border-white/10 text-white focus:border-[var(--accent)] focus:bg-black/60 focus:ring-1 focus:ring-[var(--accent)] p-6 text-lg rounded-[16px] outline-none transition-all placeholder-zinc-600 font-medium"
                   />
-                  <Clock className="w-5 h-5 text-zinc-500 absolute left-5 top-1/2 -translate-y-1/2" />
                 </div>
 
                 <button
@@ -766,6 +775,16 @@ export default function BlueprintEngine() {
                 >
                   <div className="absolute inset-0 w-full h-full border-[2px] border-white/40 rounded-[16px] animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite] pointer-events-none"></div>
                   Deploy Platform — {recommendation.price}
+                </a>
+
+                <a
+                  href="https://cal.com/tekbridges"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold py-5 px-6 text-lg rounded-[16px] flex items-center justify-center gap-2 transition-all active:scale-[0.98]"
+                >
+                  <Calendar className="w-5 h-5 text-zinc-400" />
+                  Schedule a Consultation
                 </a>
               </div>
             </div>
