@@ -2,16 +2,16 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #F4F1E9;
-  --paper-2: #ECE8DD;
-  --ink: #171512;
-  --ink-soft: #4A463E;
-  --line: #17151222;
-  --accent: #FF4A00;
-  --accent-ink: #C93A00;
-  --dark: #171512;
-  --dark-text: #F4F1E9;
-  --radius: 2px;
+  --paper: #FFFFFF;
+  --paper-2: #F5F5F7;
+  --ink: #1D1D1F;
+  --ink-soft: #86868B;
+  --line: #E5E5EA;
+  --accent: #0071E3;
+  --accent-ink: #0058B0;
+  --dark: #000000;
+  --dark-text: #F5F5F7;
+  --radius: 14px;
 }
 
 @theme {
@@ -25,16 +25,16 @@
   --color-dark: var(--dark);
   --color-dark-text: var(--dark-text);
 
-  --color-brand-orange: #FF4A00;
-  --color-brand-orange-dark: #C93A00;
-  --color-brand-dark: #171512;
-  --color-brand-slate: #171512;
-  --color-brand-paper: #F4F1E9;
-  --color-brand-paper-alt: #ECE8DD;
+  --color-brand-orange: #0071E3;
+  --color-brand-orange-dark: #0058B0;
+  --color-brand-dark: #1D1D1F;
+  --color-brand-slate: #1D1D1F;
+  --color-brand-paper: #FFFFFF;
+  --color-brand-paper-alt: #F5F5F7;
 
-  --font-display: 'Big Shoulders', sans-serif;
-  --font-sans: 'Archivo', sans-serif;
-  --font-mono: 'IBM Plex Mono', monospace;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 * {
@@ -48,7 +48,7 @@ html {
 }
 
 body {
-  font-family: 'Archivo', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
   background: var(--paper);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
@@ -61,14 +61,14 @@ body {
 }
 
 h1, h2, h3, .display {
-  font-family: 'Big Shoulders', sans-serif;
-  text-transform: uppercase;
-  line-height: .92;
-  letter-spacing: .01em;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  text-transform: none;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
 }
 
 .mono {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 .wrap {
@@ -81,7 +81,6 @@ section {
   position: relative;
 }
 
-/* ---------- reveal on scroll ---------- */
 .rv {
   opacity: 0;
   transform: translateY(26px);
@@ -91,6 +90,15 @@ section {
 .rv.in {
   opacity: 1;
   transform: none;
+}
+
+@keyframes funnelFadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.funnel-fade {
+  animation: funnelFadeUp 0.4s ease-out forwards;
 }
 
 /* ---------- top bar ---------- */
