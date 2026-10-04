@@ -38,7 +38,7 @@ export default function Hero() {
             Elite Infrastructure for High-Ticket Firms
           </span>
           <h1 className="rv text-5xl sm:text-7xl font-bold tracking-tight mb-6">
-            Engineered for
+            Architected for
             <br />
             <span className="rotator text-[var(--accent)] drop-shadow-[0_0_20px_rgba(59,130,246,0.4)]">
               <span
@@ -54,15 +54,16 @@ export default function Hero() {
             <br />
             <span className="text-zinc-500 font-medium tracking-normal text-4xl sm:text-6xl block mt-2">Uncompromising quality.</span>
           </h1>
-          <p className="hero-sub rv text-lg text-zinc-400 max-w-xl leading-relaxed">
-            We design, engineer, and deploy bespoke web applications and secure digital pipelines for elite professionals and B2B consultancies. Liquid performance. Bank-grade security.
+          <p className="hero-sub rv text-xl text-zinc-300 max-w-xl leading-relaxed">
+            We design, build, and deploy bespoke web applications and secure digital pipelines for elite professionals and B2B consultancies. Liquid performance. Bank-grade security.
           </p>
           <div className="hero-cta rv mt-10">
-            <a className="btn btn-solid border-none bg-white/10 hover:bg-white/20 backdrop-blur-md text-white shadow-[0_0_30px_rgba(255,255,255,0.05)] hover:shadow-[0_0_40px_rgba(255,255,255,0.1)] transition-all" href="/blueprint">
-              <Zap className="w-4 h-4 text-[var(--accent)]" /> Configure Architecture
+            <a className="btn btn-solid border-none bg-[var(--accent)] hover:bg-[#2563EB] text-white shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:shadow-[0_0_50px_rgba(59,130,246,0.6)] transition-all relative overflow-hidden group text-lg py-5 px-8" href="/blueprint">
+              <div className="absolute inset-0 w-full h-full border-[2px] border-white/40 rounded-[14px] animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite] pointer-events-none"></div>
+              <Zap className="w-5 h-5 text-white mr-2" /> Deploy Platform
             </a>
-            <a className="btn btn-ghost border border-white/10 text-white hover:bg-white/5 transition-all" href="#showcase">
-              <Eye className="w-4 h-4" /> View Deployments
+            <a className="btn btn-ghost border border-white/20 text-white hover:bg-white/10 transition-all text-lg py-5 px-8" href="#showcase">
+              <Eye className="w-5 h-5 mr-2" /> View Deployments
             </a>
           </div>
         </div>

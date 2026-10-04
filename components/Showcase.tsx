@@ -79,48 +79,42 @@ export default function Showcase() {
     <section className="showcase" id="showcase">
       <div className="wrap">
         <div className="showcase-copy rv">
-          <div className="sec-tag">01 / The product</div>
+          <div className="sec-tag">01 / The Architecture</div>
           <h2 className="sec-head" style={{ marginBottom: 0 }}>
-            Built to ring
+            Built to capture
             <br />
-            your phone.
+            enterprise leads.
           </h2>
           <p>
-            This isn&apos;t a template with your logo slapped on. Every site is a{" "}
-            <b>brochure built for one job: turning visitors into calls.</b> Fast
-            on a phone, found on Google, trusted at a glance.
+            This isn&apos;t a generic template. Every deployment is an independent digital asset built for one job: <b>turning traffic into high-ticket consultations.</b> Fast, secure, and fully managed.
           </p>
           <ul className="tick-list">
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Loads in under 2 seconds &mdash; enterprise decision-makers
-                evaluate your firm on mobile devices between meetings.
+                Loads in under 1 second &mdash; decision-makers evaluate your firm instantly.
               </span>
             </li>
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Optimized architecture and schema markup &mdash; ensuring your
-                firm ranks for high-intent corporate searches.
+                Optimized schema architecture &mdash; rank for high-intent B2B searches.
               </span>
             </li>
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Frictionless contact points &mdash; optimized to convert
-                traffic into booked strategy calls.
+                Frictionless conversion funnels &mdash; book more strategy calls automatically.
               </span>
             </li>
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
-              <span>Contact form straight to your email or text</span>
+              <span>Direct integrations with your calendar and CRM.</span>
             </li>
             <li>
               <CheckCircle2 className="w-5 h-5 flex-none text-[var(--accent)]" />
               <span>
-                Credibility your clients can see &mdash; share the link with
-                enterprise prospects and stakeholders.
+                Bank-grade credibility &mdash; actively build trust with stakeholders.
               </span>
             </li>
           </ul>

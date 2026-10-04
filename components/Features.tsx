@@ -15,60 +15,51 @@ export default function Features() {
         <div className="spec-grid rv">
           <div className="spec-item">
             <div className="spec-num">SPEC&mdash;01</div>
-            <h3>Hosting, done</h3>
+            <h3>Hosting & Security</h3>
             <p>
-              Fast, secure hosting with SSL included. You never touch a server,
-              a renewal, or a plugin update. It just works.
+              Bank-grade edge hosting and SSL. You never touch a server, a renewal, or a plugin. Fully managed.
             </p>
           </div>
           <div className="spec-item">
             <div className="spec-num">SPEC&mdash;02</div>
-            <h3>Monthly maintenance</h3>
+            <h3>Managed Updates</h3>
             <p>
-              One update request per month: change your hours, prices, photos,
-              service list, address &mdash; anything copy-level.
+              Submit an update request at any time. We handle the code, ensuring zero breakage.
             </p>
           </div>
           <div className="spec-item">
             <Search className="w-6 h-6 stroke-[var(--ink)] mb-4" />
-            <h3>Local SEO</h3>
+            <h3>Technical SEO</h3>
             <p>
-              Page titles, descriptions, schema markup and Google-friendly
-              structure so nearby customers actually find you.
+              Schema markup, structured data, and sub-second load times to outrank competitors.
             </p>
           </div>
           <div className="spec-item">
             <Smartphone className="w-6 h-6 stroke-[var(--ink)] mb-4" />
-            <h3>Mobile-first</h3>
+            <h3>Mobile Optimization</h3>
             <p>
-              Designed for the phone in a customer&apos;s hand, not the desktop
-              in your office.
+              Designed primarily for high-speed mobile decision-making.
             </p>
           </div>
           <div className="spec-item">
             <Mail className="w-6 h-6 stroke-[var(--ink)] mb-4" />
-            <h3>Lead form</h3>
+            <h3>Lead Routing</h3>
             <p>
-              Every inquiry lands in your inbox the moment it&apos;s sent. No
-              dashboard to check.
+              Secure forms pipe directly to your CRM or inbox instantly.
             </p>
           </div>
           <div className="spec-item">
             <div className="spec-num">SPEC&mdash;06</div>
-            <h3>Seamless Domain Integration</h3>
+            <h3>Custom Domain</h3>
             <p>
-              Connect your custom .com effortlessly. We handle the DNS routing,
-              SSL provisioning, and global CDN delivery so your brand remains
-              front and center.
+              We handle all DNS routing, SSL provisioning, and global CDN delivery automatically.
             </p>
           </div>
           <div className="spec-item">
             <div className="spec-num">SPEC&mdash;07</div>
-            <h3>You own your data</h3>
+            <h3>Data Ownership</h3>
             <p>
-              Your domain, your client lists, and your raw content are 100%
-              yours. The underlying secure infrastructure and codebase is
-              licensed and maintained by TekBridges as a managed service.
+              Your domain, leads, and content are 100% yours. We simply manage the underlying infrastructure.
             </p>
           </div>
         </div>

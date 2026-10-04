@@ -60,35 +60,35 @@ export default function Pricing() {
             <ul>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>1-page lead website</span>
+                <span>Single-page deployment</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Hosting + domain + SSL</span>
+                <span>Hosting, domain, &amp; SSL</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Contact form &rarr; your inbox</span>
+                <span>Secure contact routing</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Tap-to-call, mobile-first</span>
+                <span>Mobile-first architecture</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>1 monthly content update</span>
+                <span>Monthly managed updates</span>
               </li>
               <li className="no">
                 <X className="w-4 h-4 text-[var(--ink)] flex-none mt-1" />
-                <span>Advanced local SEO</span>
+                <span>Advanced technical SEO</span>
               </li>
               <li className="no">
                 <X className="w-4 h-4 text-[var(--ink)] flex-none mt-1" />
-                <span>Smart AI chat</span>
+                <span>AI client intake automation</span>
               </li>
             </ul>
-            <a className="btn btn-ghost" href="#contact">
-              Start Now - $0 Setup Fee
+            <a className="btn btn-ghost" href="/blueprint">
+              Configure Architecture
             </a>
           </div>
 
@@ -97,7 +97,7 @@ export default function Pricing() {
             <div className="plan-flag">Most firms choose this</div>
             <h3>
               <TrendingUp className="w-5 h-5 text-[var(--accent)]" />
-              <span>Pro</span>
+              <span>Pro Growth</span>
             </h3>
             <p className="plan-desc">
               Dominate search rankings and establish enterprise authority.
@@ -117,31 +117,31 @@ export default function Pricing() {
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Multi-page site (services, about, reviews)</span>
+                <span>Multi-page scaling (services, firm profile)</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Full local SEO + Google Business setup help</span>
+                <span>Full technical SEO & schema markup</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Reviews &amp; testimonials section</span>
+                <span>Trust & compliance integration</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Visitor analytics &mdash; see where leads come from</span>
+                <span>Data pipeline analytics</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Priority edits, 24h turnaround</span>
+                <span>Priority 24h engineering turnaround</span>
               </li>
               <li className="no">
                 <X className="w-4 h-4 text-[#F4F1E9] flex-none mt-1" />
-                <span>Smart AI chat</span>
+                <span>AI client intake automation</span>
               </li>
             </ul>
-            <a className="btn" href="#contact">
-              Start Now - $0 Setup Fee
+            <a className="btn" href="/blueprint">
+              Configure Architecture
             </a>
           </div>
 
@@ -149,7 +149,7 @@ export default function Pricing() {
           <div className="plan">
             <h3>
               <Bot className="w-5 h-5 text-[var(--accent)]" />
-              <span>Pro + AI</span>
+              <span>Enterprise + AI</span>
             </h3>
             <p className="plan-desc">
               24/7 AI client intake and lead qualification built in.
@@ -165,31 +165,31 @@ export default function Pricing() {
             <ul>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Everything in Pro</span>
+                <span>Everything in Pro Growth</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Smart Chat trained on your business</span>
+                <span>Custom AI model trained on your firm</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Answers FAQs, hours, pricing &amp; services 24/7</span>
+                <span>Autonomous client intake 24/7</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Qualifies visitors &amp; pushes them to call/book</span>
+                <span>Pre-qualifies leads & budgets</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Chat transcripts sent to your inbox</span>
+                <span>Direct CRM push integrations</span>
               </li>
               <li>
                 <Check className="w-4 h-4 text-[var(--accent)] flex-none mt-1" />
-                <span>Best for busy practitioners who can&apos;t answer during meetings</span>
+                <span>For elite firms demanding high conversion</span>
               </li>
             </ul>
-            <a className="btn btn-ghost" href="#contact">
-              Start Now - $0 Setup Fee
+            <a className="btn btn-ghost" href="/blueprint">
+              Configure Architecture
             </a>
           </div>
         </div>
@@ -197,8 +197,8 @@ export default function Pricing() {
         <div className="pricing-note rv">
           <BadgeCheck className="w-4 h-4 text-[var(--accent)] flex-none" />
           <span>
-            ALL PLANS: ZERO SETUP FEES &middot; $0 TO START &middot; CANCEL
-            ANYTIME &middot; YOU OWN YOUR DOMAIN &amp; CONTENT
+            B2B INFRASTRUCTURE &middot; CANCEL
+            ANYTIME &middot; YOU MAINTAIN 100% DATA OWNERSHIP
           </span>
         </div>
       </div>

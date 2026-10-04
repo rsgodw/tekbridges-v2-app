@@ -90,7 +90,7 @@ function getRecommendation(data: FunnelData): BlueprintRecommendation {
       planName: "Pro Growth",
       price: "$399/mo",
       stripeLink: "https://buy.stripe.com/test_399",
-      focus: "Lead Acquisition Engine",
+      focus: "Lead Acquisition System",
       features: [
         "Advanced Local SEO & Schema",
         "Conversion-optimized funnels",
@@ -121,7 +121,7 @@ const SOCIAL_PROOF = {
   4: { quote: "Our conversion rate doubled within 30 days of deployment.", author: "Amanda Roth", firm: "Ledger & Co. Tax" },
   5: { quote: "The most premium digital footprint we've ever had.", author: "James Sterling", firm: "Horizon Capital Partners" },
   6: { quote: "The technical audit exposed exactly why we were losing leads.", author: "Elena Rostova", firm: "B2B Growth Dynamics" },
-  7: { quote: "Deploying this engine was the highest ROI decision we made this year.", author: "Marcus Thorne", firm: "Thorne Capital Partners" },
+  7: { quote: "Deploying this platform was the highest ROI decision we made this year.", author: "Marcus Thorne", firm: "Thorne Capital Partners" },
 };
 
 export default function BlueprintEngine() {
@@ -518,9 +518,10 @@ export default function BlueprintEngine() {
                   href={recommendation.stripeLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-[var(--accent)] hover:bg-[#2563EB] text-white font-semibold py-4 px-6 rounded-[16px] flex items-center justify-center transition-all active:scale-[0.98] shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]"
+                  className="w-full bg-[var(--accent)] hover:bg-[#2563EB] text-white font-semibold py-5 px-6 text-lg rounded-[16px] flex items-center justify-center transition-all active:scale-[0.98] shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] relative overflow-hidden group"
                 >
-                  Deploy Engine — {recommendation.price}
+                  <div className="absolute inset-0 w-full h-full border-[2px] border-white/40 rounded-[16px] animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite] pointer-events-none"></div>
+                  Deploy Platform — {recommendation.price}
                 </a>
 
                 <a

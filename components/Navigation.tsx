@@ -28,8 +28,9 @@ export default function Navigation() {
             <a href="#pricing">Pricing</a>
           </li>
         </ul>
-        <a className="btn btn-solid btn-sm" href="/blueprint">
-          <PhoneCall className="w-4 h-4" /> Deploy Platform
+        <a className="btn btn-solid btn-sm relative overflow-hidden group border-none bg-[var(--accent)] hover:bg-[#2563EB] text-white" href="/blueprint">
+          <div className="absolute inset-0 w-full h-full border-[2px] border-white/40 rounded-md animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite] pointer-events-none"></div>
+          Deploy Platform
         </a>
       </div>
     </nav>
