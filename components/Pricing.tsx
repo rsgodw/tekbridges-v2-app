@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Globe, TrendingUp, Bot, Check, X, BadgeCheck } from "lucide-react";
+import Link from "next/link";
 
 export default function Pricing() {
   const [billing, setBilling] = useState<"m" | "y">("m");
@@ -87,9 +88,9 @@ export default function Pricing() {
                 <span>AI client intake automation</span>
               </li>
             </ul>
-            <a className="btn btn-ghost" href="/blueprint">
+            <Link className="btn btn-ghost" href="/blueprint">
               Configure Architecture
-            </a>
+            </Link>
           </div>
 
           {/* Pro Plan (Featured) */}
@@ -140,9 +141,9 @@ export default function Pricing() {
                 <span>AI client intake automation</span>
               </li>
             </ul>
-            <a className="btn" href="/blueprint">
+            <Link className="btn" href="/blueprint">
               Configure Architecture
-            </a>
+            </Link>
           </div>
 
           {/* Pro + AI Plan */}
@@ -188,9 +189,9 @@ export default function Pricing() {
                 <span>For elite firms demanding high conversion</span>
               </li>
             </ul>
-            <a className="btn btn-ghost" href="/blueprint">
+            <Link className="btn btn-ghost" href="/blueprint">
               Configure Architecture
-            </a>
+            </Link>
           </div>
         </div>
 

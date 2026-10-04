@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Zap, Eye } from "lucide-react";
+import Link from "next/link";
 
 const WORDS = [
   "scale.",
@@ -58,10 +59,10 @@ export default function Hero() {
             We design, build, and deploy bespoke web applications and secure digital pipelines for elite professionals and B2B consultancies. Liquid performance. Bank-grade security.
           </p>
           <div className="hero-cta rv mt-10">
-            <a className="btn btn-solid border-none bg-[var(--accent)] hover:bg-[#2563EB] text-white shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:shadow-[0_0_50px_rgba(59,130,246,0.6)] transition-all relative overflow-hidden group text-lg py-5 px-8" href="/blueprint">
+            <Link className="btn btn-solid border-none bg-[var(--accent)] hover:bg-[#2563EB] text-white shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:shadow-[0_0_50px_rgba(59,130,246,0.6)] transition-all relative overflow-hidden group text-lg py-5 px-8" href="/blueprint">
               <div className="absolute inset-0 w-full h-full border-[2px] border-white/40 rounded-[14px] animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite] pointer-events-none"></div>
               <Zap className="w-5 h-5 text-white mr-2" /> Deploy Platform
-            </a>
+            </Link>
             <a className="btn btn-ghost border border-white/20 text-white hover:bg-white/10 transition-all text-lg py-5 px-8" href="#showcase">
               <Eye className="w-5 h-5 mr-2" /> View Deployments
             </a>
