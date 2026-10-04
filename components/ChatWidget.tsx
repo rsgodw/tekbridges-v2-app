@@ -215,7 +215,17 @@ export default function ChatWidget() {
           </button>
         </div>
 
-        <div className="chat-body" id="chatBody" ref={chatBodyRef}>
+        <div 
+          className="chat-body" 
+          id="chatBody" 
+          ref={chatBodyRef}
+          onClick={(e) => {
+            const target = e.target as HTMLElement;
+            if (target.tagName.toLowerCase() === 'a') {
+              closeChat();
+            }
+          }}
+        >
           {messages.map((msg) =>
             msg.isTyping ? (
               <div key={msg.id} className="bubble bot typing">
