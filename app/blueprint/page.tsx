@@ -314,9 +314,9 @@ export default function BlueprintEngine() {
 
       {/* Top Nav */}
       <div className="w-full max-w-3xl mb-8 flex justify-between items-center relative z-10">
-        <Link href="/" className="text-zinc-400 hover:text-white transition-colors flex items-center gap-1.5 font-medium text-sm">
+        <a href="/" className="text-zinc-400 hover:text-white transition-colors flex items-center gap-1.5 font-medium text-sm">
           <ChevronLeft className="w-4 h-4" /> Exit
-        </Link>
+        </a>
         <div className="flex items-center gap-2 font-bold text-lg tracking-tight">
           <div className="w-6 h-6 bg-[var(--accent)] rounded-[6px] flex items-center justify-center shadow-[0_0_15px_rgba(59,130,246,0.5)]">
             <Zap className="w-3.5 h-3.5 text-white" />

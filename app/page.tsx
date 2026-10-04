@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Showcase from "@/components/Showcase";
 import Features from "@/components/Features";
+import Testimonials from "@/components/Testimonials";
 import SmartChat from "@/components/SmartChat";
 import Process from "@/components/Process";
 import Credibility from "@/components/Credibility";
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Showcase />
         <Features />
+        <Testimonials />
         <SmartChat />
         <Process />
         <Credibility />

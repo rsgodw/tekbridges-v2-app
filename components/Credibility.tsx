@@ -1,4 +1,4 @@
-import { ShieldCheck } from "lucide-react";
+import { ShieldCheck, CheckCircle2 } from "lucide-react";
 
 export default function Credibility() {
   return (
@@ -10,23 +10,28 @@ export default function Credibility() {
             <ShieldCheck className="w-5 h-5 text-[var(--accent)]" />
             <span>What your clients see</span>
           </h3>
-          <div className="cred-line">
+          <div className="cred-line flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-[var(--accent)] flex-none" />
             <span>Business website</span>
             <b>NEXT.JS EDGE NETWORK</b>
           </div>
-          <div className="cred-line">
+          <div className="cred-line flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-[var(--accent)] flex-none" />
             <span>Data protection</span>
             <b>DLP PROTOCOLS ACTIVE</b>
           </div>
-          <div className="cred-line">
+          <div className="cred-line flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-[var(--accent)] flex-none" />
             <span>Search authority</span>
             <b>INDEXED &amp; RANKING</b>
           </div>
-          <div className="cred-line">
+          <div className="cred-line flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-[var(--accent)] flex-none" />
             <span>Client intake</span>
             <b>ENCRYPTED PIPELINE</b>
           </div>
-          <div className="cred-line">
+          <div className="cred-line flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-[var(--accent)] flex-none" />
             <span>Verified trust</span>
             <b>SSL &amp; PRIVACY POLICIES</b>
           </div>
